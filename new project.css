@@ -1,0 +1,137 @@
+body{
+   margin: 0px;
+   padding: 0px;
+   /* background-color: grey; */
+   /* color: black; */
+}
+
+.background{
+ display: grid; 
+ grid-template-columns: 1fr 1fr;
+} 
+
+img{
+ height: 900px;
+    width: 100%;
+}
+
+.container-box{
+    /* background-color: white; */
+    /* color: black; */
+    padding-left: 5%;
+    /* width: 90%; */
+    
+}
+
+/* .head-button a{
+    outline: none;
+    border-radius: 10px;
+    padding: 0px; */
+
+}
+
+
+/* button:hover{
+   background-color: black;
+   color: deeppink; */
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.border{
+    margin-top: 200px;
+    display: flex;
+
+}
+.hrpro{
+    margin-top: 8px;
+    color: red solid;
+     /* width: 50%; */
+    border-top: 1px red solid; 
+    
+   width:150px;
+   
+
+}
+.hr{
+    justify-self: end;
+}
+ 
+
+.border .text p{
+  
+    margin: 0px;
+    /* padding-left: 2px; */
+}
+
+.text-box h1{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    /* padding-left: 50px; */
+}
+
+.text-box p{
+    /* padding-left: 50px ; */
+}
+
+.text-box h5{
+    /* padding-left: 50px; */
+    color:deeppink;
+}
+
+.text-2{
+    padding-top: 150px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+
+.icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+  
+}
+
+
+
+@media screen and (max-width:1100px){
+   .background{
+       grid-template-columns: 1fr;
+   }
+   img{
+       height: 400px;
+       width: 75%;
+    justify-self: center;
+   }
+   .box{
+  
+       display: grid;
+   }
+ .text-box{
+       text-align: center;
+   }
+   .border{
+       justify-content: center;
+   }
+}
+
+@media screen and (max-width:500px){
+    .hr{
+        display: none;
+    }
+    .text p{
+        text-align: center;
+    }
+    .border{
+        grid-template-columns: 1fr;
+    }
+}
